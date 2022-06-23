@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2020/08/24/Forest-background-Graphics-5087914-1.jpg);
+  background-size: cover; }
+
+.banner {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif; }
+
+.banner__top {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px; }
+
+.banner__titel {
+  color: #ffa631;
+  font-weight: 800;
+  font-size: 36px; }
+
+.banner_descroption {
+  color: #b9b9b9;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px; }
+
+.banner_upprostred {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.banner__card {
+  width: 200px;
+  height: 300px;
+  color: white;
+  font-family: sans-serif;
+  margin: 50px; }
+
+.card__photo {
+  width: 100%;
+  height: 60%;
+  background-image: url(../img/photo1.jpg);
+  background-size: cover; }
+
+.card__photo2 {
+  width: 100%;
+  height: 60%;
+  background-image: url(../img/photo2.jpg);
+  background-size: cover; }
+
+.card__photo3 {
+  width: 100%;
+  height: 60%;
+  background-image: url(../img/photo3.jpg);
+  background-size: cover; }
+
+.card__item {
+  width: 100%;
+  height: 40%;
+  padding-top: 25px;
+  background-color: rgb(85, 68, 59, 0.8);
+}
+
+.card__titel {
+  font-weight: 600;
+  font-size: 18px; }
+
+.card__description {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 15px; }
+
+.banner__bottom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.banner__button {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(85, 68, 59, 0.8);
+
+  cursor: pointer; }
+
+/*# sourceMappingURL=stzle.css.map */
